@@ -1,7 +1,11 @@
 
 public class Test {
 
-    public static void main(String[]a) {
-        System.out.println("Dude, where is the fat boy?");
+    public static void main(String[] args) {
+        if(a.length == 0) {
+            System.out.println("No input provided");
+            return;
+        }
+        System.out.println(a[0]);
     }
 }
