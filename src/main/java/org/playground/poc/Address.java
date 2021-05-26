@@ -8,6 +8,7 @@ public class Address {
     public String unit;
 
     public void setStreetName(String aStreetName){
+
         this.streetName = aStreetName;
     }
 

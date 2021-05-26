@@ -31,4 +31,11 @@ public class Person {
     public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
+
+    public Address getAddress(){
+        return address;
+    }
+    public void setAddress(Address address){
+        this.address = address;
+    }
 }

@@ -20,6 +20,8 @@ public class Main {
         matAddress.setStreetName("cypress");
         System.out.println("mat street name = " + matAddress.getStreetName());
         System.out.println("matei street name = " + mateiAddress.getStreetName());
+        Person mat = new Person();
+        mat.setAddress(matAddress);
 
     }
 }
