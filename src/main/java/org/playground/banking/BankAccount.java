@@ -38,7 +38,7 @@ public class BankAccount {
     {
         if(previousTransaction > 0)
         {
-            System.out.println("Deposited: "+previousTransaction):
+            System.out.println("Deposited: "+previousTransaction);
         }
         else if(previousTransaction > 0)
         {
